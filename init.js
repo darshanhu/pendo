@@ -12,7 +12,7 @@
 
         pendo.initialize({
             visitor: {
-                id:              'SOFTLAND_VISITOR_DARSHAN',
+                id:           'SOFTLAND_VISITOR_DARSHAN',
                 email:        "darshan.hulswar@softland.com",
                 full_name:    "Darshan Hulswar"
             },
@@ -23,5 +23,5 @@
                 creationDate: new Date().toISOString().slice(0, 10)
             }
         });
-        
+
 })('43994d6b-66ea-49fc-71f1-31077e387150');
