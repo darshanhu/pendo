@@ -9,17 +9,19 @@
         // This function uses the placeholder 'ACCOUNT-UNIQUE-ID' value for account ID unless you change the account id field to use your app's values
         // Call this function after users are authenticated in your app and your visitor and account id values are available
         // Please use Strings, Numbers, or Bools for value types.
-        // pendo.initialize({
-        //     visitor: {
-        //         id:              'SOFTLAND_VISITOR_DARSHAN',
-        //         email:        "darshan.hulswar@softland.com",
-        //         full_name:    "Darshan Hulswar"
-        //     },
 
-        //     account: {
-        //         id:           'SOFTLAND_ACCOUNT_1',
-        //         name:         "SOFTLAND_ACCOUNT",
-        //         creationDate: new Date().toISOString().slice(0, 10)
-        //     }
-        // });
+        pendo.initialize({
+            visitor: {
+                id:              'SOFTLAND_VISITOR_DARSHAN',
+                email:        "darshan.hulswar@softland.com",
+                full_name:    "Darshan Hulswar"
+            },
+
+            account: {
+                id:           'SOFTLAND_ACCOUNT_1',
+                name:         "SOFTLAND_ACCOUNT",
+                creationDate: new Date().toISOString().slice(0, 10)
+            }
+        });
+        
 })('43994d6b-66ea-49fc-71f1-31077e387150');
